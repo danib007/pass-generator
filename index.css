@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  margin: 0;
+  background: #1C1C1C;
+}
+
+.container {
+    background: #2b2d42;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: auto;
+    padding: 0 0 0 52px;
+    border: 4px solid #1C1C1C;;
+    border-radius: 10px
+
+}
+
+#title-el {
+    margin: 115px 144px 0 0;
+    width: 354px;
+    color: #edf2f4;
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; 
+    letter-spacing: -1px; 
+}
+
+span {
+    display: flex;
+    color: #ef233c;
+    text-shadow: 0px 0px 10px black;
+}
+
+p {
+    width: 372px;
+    height: 28px;
+    color: #D5D4D8;
+    
+}
+
+#pass-btn {
+    margin: 0 307px 0 0;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #ef233c; 
+    color: #edf2f4;
+}
+
+#line {
+    color: #2F3E53;
+    padding: 0px 52px 0 0;
+}
+
+#pass-boxes {
+    display: flex;
+    flex-direction: row;    
+}
+
+#password1-el, #password2-el  {
+    border: 2px solid #2F3E53;
+    border-radius: 6px;
+    background: #8d99ae;
+    width: 211px;
+    height: 39px; 
+    color: #edf2f4;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+#password1-el {
+    margin: 15px 24px 115px 0;
+}
+
+#password2-el {
+    margin: 15px 52px 115px 0;
+}
